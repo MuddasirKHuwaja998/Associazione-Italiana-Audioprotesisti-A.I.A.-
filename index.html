@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Associazione Italiana Audioprotesisti (A.I.A.)</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/bg-img/LOGO-removebg-preview.png">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+                                    /* Footer link button override to remove all backgrounds and enforce white/green */
+                                    .footer-link-btn {
+                                        background: none !important;
+                                        color: #fff !important;
+                                        font-weight: 700 !important;
+                                        border: 2px solid transparent !important;
+                                        border-radius: 0 !important;
+                                    }
+                                    .footer-link-btn:hover, .footer-link-btn:focus {
+                                        background: none !important;
+                                        color: #228B22 !important;
+                                        border: 2px solid #228B22 !important;
+                                    }
+    /* Transizioni e hover eleganti */
+    .btn, .alazea-btn, button, .footer-nav a, .widget-nav a {
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s, transform 0.2s, border-color 0.3s;
+        background: #6fcf97 !important;
+        color: #fff !important;
+        border: 2px solid #27ae60 !important;
+        border-radius: 8px !important;
+    }
+    .btn:hover, .alazea-btn:hover, button:hover, .footer-nav a:hover, .widget-nav a:hover {
+        background: #27ae60 !important;
+        color: #fff !important;
+        box-shadow: 0 4px 18px rgba(39,174,96,0.13);
+        border-color: #219150 !important;
+        transform: translateY(-2px) scale(1.04);
+        text-decoration: none;
+    }
+    img, .service-icon img, .cf-icon img, .footer-logo img, .product-thumbnail img {
+        transition: box-shadow 0.3s, transform 0.3s, filter 0.3s;
+    }
+    img:hover, .service-icon img:hover, .cf-icon img:hover, .footer-logo img:hover, .product-thumbnail img:hover {
+        box-shadow: 0 8px 32px rgba(0,128,0,0.18);
+        transform: scale(1.06) rotate(-2deg);
+        filter: brightness(1.08);
+    }
+    h2, h5, .section-heading h2, .single-benefits-area h5, .single-service-area h5 {
+        transition: color 0.3s, text-shadow 0.3s, transform 0.2s;
+    }
+    h2, h5, .section-heading h2, .single-benefits-area h5, .single-service-area h5 {
+        color: #27ae60 !important;
+    }
+    h2:hover, h5:hover, .section-heading h2:hover, .single-benefits-area h5:hover, .single-service-area h5:hover {
+        color: #219150 !important;
+        text-shadow: 0 2px 12px #27ae6044;
+        transform: scale(1.04);
+    }
+    /* Footer social icon hover color fix */
+    .footer-area .social-info a:hover i {
+        color: #27ae60 !important;
+        background: none !important;
+    }
+    </style>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center" style="position:fixed; top:0; left:0; width:100vw; height:100vh; background: linear-gradient(135deg, #b7e4c7 0%, #6fcf97 100%); z-index:9999;">
+        <div class="preloader-circle" style="border: 6px solid #27ae60; border-top: 6px solid #b7e4c7;"></div>
+        <div class="preloader-img" style="display: flex; align-items: center; justify-content: center; height: 180px; width: 180px;">
+            <img src="img/bg-img/LOGO-removebg-preview.png" alt="AIA Logo" style="max-height: 180px; max-width: 180px; object-fit: contain; margin: 0; padding: 0; border-radius: 16px;">
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- ***** Top Header Area ***** -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="associazioneitalianaaudioprotesisti@pec.it"><i class="fa fa-envelope-o" aria-hidden="true" style="color:#228B22;"></i> <span style="color:#ffffff;">PEC: associazioneitalianaaudioprotesisti@pec.it</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="840.000.859"><i class="fa fa-phone" aria-hidden="true" style="color:#228B22;"></i> <span style="color:#fffefe;">Telefono: 840.000.859</span></a>
+                            </div>
+
+                            <!-- Top Header Content -->
+                            <div class="top-header-meta d-flex">
+                                <!-- Language Dropdown Only -->
+                                <div class="language-dropdown">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lingua</button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background:#eaf6fd; border:1.5px solid #228B22;">
+                                            <a class="dropdown-item language-option" href="#" data-lang="it" style="color:#228B22;">Italiano</a>
+                                            <a class="dropdown-item language-option disabled" href="#" data-lang="en-uk" style="color:#228B22;">Inglese UK (non disponibile)</a>
+                                            <a class="dropdown-item language-option disabled" href="#" data-lang="en-usa" style="color:#228B22;">Inglese USA (non disponibile)</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ***** Navbar Area ***** -->
+        <div class="alazea-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="alazeaNav">
+
+                        <!-- Nav Brand -->
+                        <a href="index.html" class="nav-brand" style="border-radius:12px; padding:4px 12px; display:inline-block;">
+                            <img src="img/bg-img/LOGO-removebg-preview.png" alt="AIA Logo" style="height: 90px; width:180px; display:block; border-radius:12px; object-fit:contain;">
+                        </a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Navbar Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">Chi Siamo</a></li>
+                                    <li><a href="products_services.html">Servizi</a></li>
+                                    <li><a href="career.html" id="documents-link">Documenti</a></li>
+                                    <li><a href="contact.html">Contattaci</a></li>
+                                </ul>
+
+                                <!-- Search Icon -->
+                                <div id="searchIcon">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+
+                            </div>
+                            <!-- Navbar End -->
+                        </div>
+                    </nav>
+
+                    <!-- Search Form -->
+                    <div class="search-form">
+                        <form action="#" method="get">
+                            <input type="search" name="search" id="search" placeholder="Inserisci le parole chiave e premi invio...">
+                            <button type="submit" class="d-none"></button>
+                        </form>
+                        <!-- Close Icon -->
+                        <div class="closeIcon"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-post-slides owl-carousel">
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/hero2.png);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-left" style="text-align:left;">
+                                 <h2 style="color: #228B22; font-size:3.1rem; font-weight:700; font-family:'Segoe UI','Arial',sans-serif; letter-spacing:0.01em;">ASSOCIAZIONE ITALIANA AUDIOPROTESISTI</h2>
+                            
+                                <p style="font-size:1.45rem; font-weight:500; color:#fff; margin-top:1.1rem; margin-bottom:2.1rem; max-width:700px;">Dal 1987 al fianco degli audioprotesisti per difendere, valorizzare e rafforzare la dignità della professione.</p>
+                                <div class="welcome-btn-group">
+                                    <a href="https://www.associazioneitalianaaudioprotesisti.it/corsoformazione/" class="btn alazea-btn mr-30" style="background:#228B22; color:#fff; border:2px solid #228B22; border-radius:8px; font-weight:600;" target="_blank" rel="noopener">ISCRIVITI ORA</a>
+                                    <a href="contact.html" class="btn alazea-btn active" style="background:#fff; color:#228B22; border:2px solid #228B22; border-radius:8px; font-weight:600;">CONTATTI</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single Hero Post -->
+            <div class="single-hero-post bg-overlay">
+                <!-- Post Image -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/hero\ 1.png);"></div>
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <!-- Post Content -->
+                            <div class="hero-slides-content text-left" style="text-align:left;">
+                                <h2 style="color:#228B22; font-size:3.1rem; font-weight:700; font-family:'Segoe UI','Arial',sans-serif; letter-spacing:0.01em;">ASSOCIAZIONE ITALIANA AUDIOPROTESISTI</h4>
+                                
+                                <p style="font-size:1.45rem; font-weight:500; color:#fff; margin-top:1.1rem; margin-bottom:2.1rem; max-width:700px;">Rappresentiamo e sosteniamo gli audioprotesisti italiani con competenza, indipendenza e impegno continuo.</p>
+                                <div class="welcome-btn-group">
+                                    <a href="products_services.html" class="btn alazea-btn mr-30" style="background:#228B22; color:#fff; border:2px solid #228B22; border-radius:8px; font-weight:600;">INIZIA ORA</a>
+                                    <a href="contact.html" class="btn alazea-btn active" style="background:#fff; color:#228B22; border:2px solid #228B22; border-radius:8px; font-weight:600;">CONTATTI</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Service Area Start ##### -->
+    <section class="our-services-area bg-gray section-padding-100-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>I Nostri Servizi</h2>
+                        <p>Scopri i principali servizi dell'A.I.A.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid #228B22; border-radius:16px; padding:32px 18px; transition:transform 0.25s, box-shadow 0.25s; background:#fff;">
+                        <img src="img/bg-img/licensing.png" alt="Accordi e contratti" style="width:70px;height:70px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="color:#228B22; font-size:1.25rem; font-weight:700;">Accordi e contratti</h5>
+                        <p style="font-size:1.08rem; color:#222;">L'A.I.A. stipula accordi, partnership, assistenza e tutela collettiva dei soci a livello nazionale.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid #228B22; border-radius:16px; padding:32px 18px; transition:transform 0.25s, box-shadow 0.25s; background:#fff;">
+                        <img src="img/bg-img/coordination.png" alt="Gestione e coordinamento" style="width:70px;height:70px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="color:#228B22; font-size:1.25rem; font-weight:700;">Gestione e coordinamento</h5>
+                        <p style="font-size:1.08rem; color:#222;">Svolgimento di studi sull'evoluzione del lavoro e del mercato, elaborazione periodica di dati, performance e reti aziendali.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 d-flex align-items-stretch">
+                    <div class="custom-service-box text-center animated-service" style="border:2px solid #228B22; border-radius:16px; padding:32px 18px; transition:transform 0.25s, box-shadow 0.25s; background:#fff;">
+                        <img src="img/bg-img/protections.png" alt="Informazione e tutela" style="width:70px;height:70px;object-fit:contain; margin-bottom:18px;">
+                        <h5 style="color:#228B22; font-size:1.25rem; font-weight:700;">Informazione e tutela</h5>
+                        <p style="font-size:1.08rem; color:#222;">Aggiornamenti costanti, campagne informative, supporto alla formazione e difesa dei diritti dei soci.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+        .animated-service {
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+        .animated-service:hover {
+            transform: scale(1.07);
+            box-shadow: 0 8px 32px #228B2233;
+            z-index: 2;
+        }
+        </style>
+    </section>
+    <!-- ##### Service Area End ##### -->
+
+    <!-- ##### About Area Start ##### -->
+    <section class="about-us-area section-padding-100-0">
+        <div class="container"> 
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2>Chi Siamo</h2>
+                        <p style="color:hsl(120, 2%, 13%);">L’Associazione Italiana Audioprotesisti – A.I.A., Ente del Terzo Settore istituito nel 1987, è un’associazione indipendente, apartitica e aconfessionale, senza fini di lucro. Opera con l’obiettivo di tutelare e assistere, in ambito professionale, tecnico, sindacale e giuridico, le aziende del settore audioprotesico e la categoria degli audioprotesisti. Le attività dell’Associazione sono svolte con il supporto e la partecipazione attiva dei soci presenti su tutto il territorio nazionale.</p>
+                    </div>
+                    <p style="color:#262726;">Nel corso degli anni, A.I.A. ha promosso occasioni di confronto e crescita professionale, contribuendo al riconoscimento della dignità del Tecnico Audioprotesista. Un ruolo centrale è svolto dalla formazione: già nel 1988, dopo un lungo vuoto istituzionale, l’Associazione ha organizzato corsi abilitanti qualificando oltre 800 professionisti. Oggi continua a garantire aggiornamento e tutela della professione, intervenendo anche in sede giuridica per preservarne il corretto ruolo e valore.</p>
+
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div class="chi-siamo-image-area text-center" style="display:flex; align-items:center; justify-content:center; height:100%;">
+                        <img src="img/bg-img/CHI SIAMO.jpg" alt="Chi Siamo" style="width:100%; max-width:520px; max-height:440px; border-radius:16px; box-shadow:0 4px 24px #228B2233; object-fit:cover; border:2px solid #428058;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Removed border line as requested -->
+        </div>
+    </section>
+    <!-- ##### About Area End ##### -->
+
+   
+
+    <!-- ##### Product Area Removed as requested ##### -->
+
+    <!-- ##### Products Section Start ##### -->
+    <section class="team-area section-padding-100-0" style="background:#f7fbff;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="section-heading text-center mb-5">
+                        <h2 style="color:#228B22; font-weight:700; font-size:2.3rem;">Il Nostro Team</h2>
+                        <p style="color:#000; font-size:1.18rem;">Il team A.I.A. è composto da professionisti esperti e appassionati, impegnati nella crescita e nella tutela della categoria degli audioprotesisti in Italia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Team Member 1 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex align-items-stretch">
+                    <div class="team-flip-card">
+                        <div class="team-flip-card-inner">
+                            <div class="team-flip-card-front">
+                                <img src="img/bg-img/BARONE bartolomucci.png" alt="Barone Dott. Gennaro Bartolomucci" class="team-img">
+                                <h5 class="team-name">Dott. Gennaro Bartolomucci</h5>
+                                <span class="team-role">Presidente</span>
+                            </div>
+                            <div class="team-flip-card-back">
+                                <div class="team-flip-content">Promotore di corsi di formazione e aggiornamento della figura professionale del Tecnico Audioprotesista. E' il pioniere dell'applicazione delle nuove tecnologie al settore audioprotesico e l'inventore di strumenti di prevenzione uditiva, oggetto di brevetto.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex align-items-stretch">
+                    <div class="team-flip-card">
+                        <div class="team-flip-card-inner">
+                            <div class="team-flip-card-front">
+                                <img src="img/bg-img/ENRICOO.jpg" alt="Dott. Enrico Bartolomucci" class="team-img">
+                                <h5 class="team-name">Dott. Enrico Bartolomucci</h5>
+                                <span class="team-role">Vice Presidente Nazionale</span>
+                            </div>
+                            <div class="team-flip-card-back">
+                                <div class="team-flip-content">Enrico Bartolomucci, laureato in tecniche audioprotesiche presso l’università di medicina e chirurgia di Genova. Esperto in comunicazione e marketing ricopre il ruolo di direttore commerciale in una nota azienda nel settore audioprotesico.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex align-items-stretch">
+                    <div class="team-flip-card">
+                        <div class="team-flip-card-inner">
+                            <div class="team-flip-card-front">
+                                <img src="img/bg-img/ANNA.png" alt="Avv. Dott.sa Anna Incarnato" class="team-img">
+                                <h5 class="team-name">Avv. Dott.sa Anna Incarnato</h5>
+                                <span class="team-role">Consigliere, Segretario Nazionale</span>
+                            </div>
+                            <div class="team-flip-card-back">
+                                <div class="team-flip-content">Laureata alla facoltà di Giurisprudenza Federico II nel 2006. Dopo il tirocinio presso prestigiosi studi legali ha deciso di esercitare autonomamente la professione e occuparsi dell’AIA. Nel 2011 si è laureata con il massimo dei voti in Tecniche Audioprotesiche presso l’Università degli Studi di Siena.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex align-items-stretch">
+                    <div class="team-flip-card">
+                        <div class="team-flip-card-inner">
+                            <div class="team-flip-card-front">
+                                <img src="img/bg-img/ANELOO.jpg" alt="Dott. Aniello de Stefano" class="team-img">
+                                <h5 class="team-name">Dott. Aniello de Stefano</h5>
+                                <span class="team-role">Consigliere</span>
+                            </div>
+                            <div class="team-flip-card-back">
+                                <div class="team-flip-content">Laureato in Tecniche Audioprotesiche presso l’Università degli Studi di Siena. Ha svolto l’attività di Audioprotesista presso vari Centri Audioprotesici acquisendo esperienza e sviluppando competenze riguardo la prevenzione, correzione e riabilitazione delle deficienze della funzione uditiva.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-5 d-flex align-items-stretch">
+                    <div class="team-flip-card">
+                        <div class="team-flip-card-inner">
+                            <div class="team-flip-card-front">
+                                <img src="img/bg-img/GIULIA.png" alt="Dott.sa Giulia Simone" class="team-img">
+                                <h5 class="team-name">Dott.sa Giulia Simone</h5>
+                                <span class="team-role">Consigliere, Tesoriere</span>
+                            </div>
+                            <div class="team-flip-card-back">
+                                <div class="team-flip-content">Specializzata nella consulenza finanziaria alle aziende, si occupa di new venture creation, process re-engineering, organizzazione e formazione. Predispone progetti start up di nuove imprese, valuta aziende e progetti per conto dell'imprenditorialità giovanile spa (oggi Invitalia).</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+        .team-flip-card {
+            background: none;
+            perspective: 1200px;
+            width: 100%;
+            min-height: 370px;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            border: 5px solid #228B22;
+            border-radius: 18px;
+            box-sizing: border-box;
+        }
+        .team-flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s cubic-bezier(.4,0,.2,1);
+            transform-style: preserve-3d;
+        }
+        .team-flip-card:hover .team-flip-card-inner, .team-flip-card:focus-within .team-flip-card-inner {
+            transform: rotateY(180deg);
+        }
+        .team-flip-card-front, .team-flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 24px #228B2233;
+        }
+        .team-flip-card-front {
+            background: #fff;
+            z-index: 2;
+            padding: 32px 18px 24px 18px;
+        }
+        .team-flip-card-back {
+            background: #b7e4c7;
+            color: #228B22;
+            transform: rotateY(180deg);
+            z-index: 3;
+            padding: 32px 18px 24px 18px;
+        }
+        .team-img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #228B22;
+            margin-bottom: 18px;
+            box-shadow: 0 2px 12px #228B2244;
+        }
+        .team-name {
+            color: #228B22;
+            font-size: 1.18rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .team-role {
+            color: #222;
+            font-size: 1.02rem;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .team-flip-content {
+            color: #228B22;
+            font-size: 1.04rem;
+            font-weight: 500;
+            text-align: center;
+        }
+        @media (max-width: 991px) {
+            .team-flip-card { min-height: 420px; }
+        }
+        @media (max-width: 767px) {
+            .team-flip-card { min-height: 340px; }
+        }
+        </style>
+    </section>
+    <!-- ##### Products Section End ##### -->
+    <!-- ##### Blog Area End ##### -->
+    <!-- ##### Testimonials Area Start ##### -->
+    <section class="odiens-testimonials-area section-padding-100-0" style="background:#f7fbff; border-radius:8px; margin-bottom:+40px; font-family:'Segoe UI', 'Arial', sans-serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 style="color:#228B22; font-weight:700; margin-bottom:18px; font-size:2.1rem;">Cosa dicono di A.I.A.</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- Testimonial 1 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.1s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/businesswoman.webp" alt="Dott.ssa Maria Rossi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott.ssa Maria Rossi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“A.I.A. rappresenta un punto di riferimento fondamentale per la nostra categoria. Grazie al loro supporto, la mia crescita professionale è stata costante e stimolante.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.3s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/office-worker.png" alt="Dott. Luca Bianchi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott. Luca Bianchi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“L’associazione A.I.A. tutela con serietà e dedizione i professionisti del settore. Un vero valore aggiunto per tutti noi.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.5s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/man.webp" alt="Dott.ssa Chiara Verdi" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott.ssa Chiara Verdi</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“Partecipare alle iniziative A.I.A. mi ha permesso di ampliare le mie competenze e di sentirmi parte di una grande famiglia professionale.”</p>
+                    </div>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="col-12 col-md-6 col-lg-3 mb-4 d-flex justify-content-center">
+                    <div class="testimonial-box p-4 w-100" style="background:#fff; border-radius:12px; box-shadow:0 2px 16px #228B2222; display:flex; flex-direction:column; align-items:center; height:100%; text-align:center; font-family:'Segoe UI', 'Arial', sans-serif; opacity:0; animation: fadeInUp 1.7s forwards; transition:box-shadow 0.3s, transform 0.3s;">
+                        <img src="img/bg-img/bussiness-man.webp" alt="Dott. Marco Neri" style="width:54px; height:54px; object-fit:contain; margin-bottom:12px; border-radius:50%; border:1.5px solid #228B22;">
+                        <h5 style="color:#228B22; font-size:1.13rem; font-weight:600; margin-bottom:8px; font-family:'Segoe UI', 'Arial', sans-serif;">Dott. Marco Neri</h5>
+                        <div style="width:90px; height:2px; background:#228B22; margin:0 auto 12px auto; border-radius:2px;"></div>
+                        <p style="color:#222; font-size:1.08rem; font-weight:400; margin-bottom:0; font-family:'Segoe UI', 'Arial', sans-serif;">“Professionalità, formazione continua e spirito di collaborazione: questi sono i valori che ho trovato in A.I.A. e che mi accompagnano ogni giorno.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Testimonials Area End ##### -->
+    <style>
+    @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(40px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    .testimonial-box:hover {
+        box-shadow: 0 8px 32px #228B2244;
+        transform: scale(1.04) translateY(-4px);
+        border: 1.5px solid #228B22;
+    }
+    </style>
+
+    <!-- ##### Subscribe Area Start ##### -->
+    <section class="subscribe-newsletter-area" style="background-image: url(img/bg-img/subscribe.png); border: 1.5px solid #228B22; border-radius: 8px;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading mb-0">
+                        <h2 style="color:#228B22;">Associazione Italiana Audioprotesisti (A.I.A.)</h2>
+                        <p>Resta aggiornato sulle attività, eventi e novità dell'A.I.A., l'associazione di riferimento per i professionisti dell'audioprotesi in Italia.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="subscribe-form">
+                        <form action="#" method="get">
+                            <input type="email" name="subscribe-email" id="subscribeEmail" placeholder="Inserisci la tua email">
+                            <button type="submit" class="btn alazea-btn">ISCRIVITI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Subscribe Side Thumbnail -->
+        <div class="subscribe-side-thumb wow fadeInUp" data-wow-delay="500ms">
+            <img class="first-img" src="img/bg-img/LOGO-removebg-preview.png" alt="AIA Logo" style="width: 80px; height: 80px; object-fit: contain;">
+        </div>
+    </section>
+    <!-- ##### Subscribe Area End ##### -->
+
+    <!-- ##### Contact Area Start ##### -->
+    <section class="contact-area section-padding-100-0">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h2>Contatta l'A.I.A.</h2>
+                        <p>Associazione Italiana Audioprotesisti (A.I.A.)<br>Non‑profit association representing professionals in the audioprosthetist / hearing care sector in Italy.</p>
+                    </div>
+                    <!-- Contact Information -->
+                    <div class="contact-form-area mb-100">
+                        <ul style="list-style:none; padding:0; color:#228B22; font-size:1.08rem;">
+                            <li><strong>Indirizzo:</strong> Viale Antonio Gramsci, 17/b, 80122 Napoli (NA), Italy</li>
+                            <li><strong>Telefono:</strong> 840.000.859</li>
+                            <li><strong>Email:</strong> <a href="mailto:info@associazioneitalianaaudioprotesisti.it">info@associazioneitalianaaudioprotesisti.it</a></li>
+                            <li><strong>PEC:</strong> <a href="mailto:associazioneitalianaaudioprotesisti@pec.it">associazioneitalianaaudioprotesisti@pec.it</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <!-- Google Maps -->
+                    <div class="map-area mb-100">
+                        <iframe src="https://www.google.com/maps?q=Viale+Antonio+Gramsci+17%2Fb%2C+80122+Napoli+%28NA%29%2C+Italy&output=embed" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen title="AIA Location"></iframe>
+                        <div style="margin-top:8px;">
+                            <strong>Viale Antonio Gramsci, 17/b</strong><br>
+                            80122 Napoli (NA), Italy<br>
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=Viale+Antonio+Gramsci+17%2Fb%2C+80122+Napoli+%28NA%29%2C+Italy" target="_blank" rel="noopener">Indicazioni</a> |
+                            <a href="https://www.google.com/maps?q=Viale+Antonio+Gramsci+17%2Fb%2C+80122+Napoli+%28NA%29%2C+Italy" target="_blank" rel="noopener">Visualizza mappa ingrandita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Contact Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area bg-img" style="position: relative; background-image: url(img/bg-img/FOOTER.png); background-color: transparent; background-blend-mode: normal;">
+        <div style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(20,20,20,0.75); z-index: 0;"></div>
+        <!-- Main Footer Area -->
+        <div class="main-footer-area" style="position: relative; z-index: 1;">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget: Logo/Info -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="footer-logo mb-30">
+                                <a href="#" style="border-radius:12px; padding:4px 12px; display:inline-block;">
+                                    <img src="img/bg-img/LOGO-removebg-preview.png" alt="AIA Logo" style="height:90px; width:auto; display:block; border-radius:12px;">
+                                </a>
+                            </div>
+                            <p style="color:#fff; font-size:1.05rem; font-weight:500; line-height:1.6;">Associazione Italiana Audioprotesisti (A.I.A.)<br>Non‑profit association representing professionals in the audioprosthetist / hearing care sector in Italy.</p>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Contacts -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                <h5>CONTATTI</h5>
+                            </div>
+                            <div class="contact-information">
+                                <p><span>Indirizzo:</span><br>Viale Antonio Gramsci, 17/b<br>80122 Napoli (NA)<br>Italy</p>
+                                <p><span>Telefono:</span> 840.000.859</p>
+                                <p><span>Email:</span> <a href="mailto:info@associazioneitalianaaudioprotesisti.it" style="color:#fff;">info@associazioneitalianaaudioprotesisti.it</a></p>
+                                <p><span>PEC:</span> <a href="mailto:associazioneitalianaaudioprotesisti@pec.it" style="color:#fff;">associazioneitalianaaudioprotesisti@pec.it</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Rapid Links (with improved style) -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                <h5>LINK RAPIDI</h5>
+                            </div>
+                            <nav class="widget-nav">
+                                <ul style="padding-left:0; margin:0; display:block;">
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="index.html" class="footer-link-btn">Home</a></li>
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="about.html" class="footer-link-btn">Chi Siamo</a></li>
+                                    <li style="margin-bottom:10px; width:100%; display:block;"><a href="career.html" class="footer-link-btn" id="documents-footer-link">Documenti</a></li>
+                                    <li style="width:100%; display:block;"><a href="contact.html" class="footer-link-btn">Contattaci</a></li>
+                                </ul>
+                                <style>
+                                .footer-link-btn {
+                                    display: block;
+                                    width: 100%;
+                                    padding: 13px 0;
+                                    
+                                    color: #222;
+                                    font-weight: 700;
+                                    font-size: 1.08rem;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    border-radius: 0;
+                                    border: 2px solid #fff;
+                                    box-shadow: none;
+                                    transition: background 0.18s, color 0.18s, border-color 0.18s;
+                                    margin: 0;
+                                }
+                                .footer-link-btn:hover, .footer-link-btn:focus {
+                                    background: #fff;
+                                    color: #228B22;
+                                    border-color: #228B22;
+                                    text-decoration: none;
+                                }
+                                </style>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Single Footer Widget: Main Services -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget">
+                            <div class="widget-title">
+                                <h5>SERVIZI PRINCIPALI</h5>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center mb-2">
+                                <div class="product-thumbnail">
+                                    <img src="img/bg-img/licensing.png" alt="Accordi e contratti" style="width:40px;height:40px;object-fit:contain;">
+                                </div>
+                                <div class="product-info" style="margin-left:10px;">
+                                    <span style="color:#228B22;font-weight:600;">Accordi e contratti</span>
+                                </div>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center mb-2">
+                                <div class="product-thumbnail">
+                                    <img src="img/bg-img/coordination.png" alt="Gestione e coordinamento" style="width:40px;height:40px;object-fit:contain;">
+                                </div>
+                                <div class="product-info" style="margin-left:10px;">
+                                    <span style="color:#228B22;font-weight:600;">Gestione e coordinamento</span>
+                                </div>
+                            </div>
+                            <div class="single-best-seller-product d-flex align-items-center">
+                                <div class="product-thumbnail">
+                                    <img src="img/bg-img/protections.png" alt="Informazione e tutela" style="width:40px;height:40px;object-fit:contain;">
+                                </div>
+                                <div class="product-info" style="margin-left:10px;">
+                                    <span style="color:#228B22;font-weight:600;">Informazione e tutela</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom Area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-line"></div>
+                    </div>
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p>&copy; Copyright &copy;2026 Tutti i diritti riservati | Associazione Italiana Audioprotesisti (A.I.A.)</p>
+                        </div>
+                    </div>
+                    <!-- Footer Nav -->
+                    <div class="col-12 col-md-6">
+                        <div class="footer-nav">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">Chi Siamo</a></li>
+                                    <li><a href="career.html" id="documents-footer-nav">Documenti</a></li>
+                                    <li><a href="contact.html">Contattaci</a></li>
+                                    
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
+<script>
+// Language switcher for IT, EN-UK, EN-USA
+const translations = {
+    it: {
+        home: 'Home',
+        about: 'Chi Siamo',
+        products: 'Prodotti e Servizi',
+        contact: 'Contattaci',
+        getStarted: 'INIZIA ORA',
+        contactUs: 'CONTATTI',
+        ourServices: 'I NOSTRI SERVIZI',
+        aboutUs: 'CHI SIAMO',
+        viewAll: 'Vedi Tutto',
+        newsletter: 'Resta in contatto con MaxOto',
+        subscribe: 'ISCRIVITI',
+        quickLinks: 'LINK RAPIDI',
+        bestSeller: 'PRODOTTI PIÙ VENDUTI',
+        contacts: 'CONTATTI',
+        endo: 'SERIE ENDO',
+        cic: 'SERIE CIC',
+        medDevice: 'Dispositivo medico CE 0051',
+        aboutFooter: 'Chi Siamo',
+        contactFooter: 'Contattaci',
+        productsFooter: 'Prodotti e Servizi',
+        brochureTitle: 'Scarica la Brochure MaxOto',
+        brochureCaption: 'Clicca sull’immagine o sul titolo per scaricare il PDF informativo.',
+        rollupTitle: 'Scarica il Rollup MaxOto',
+        rollupCaption: 'Clicca sull’immagine o sul titolo per scaricare il PDF informativo.'
+    },
+    'en-uk': {
+        home: 'Home',
+        about: 'About Us',
+        products: 'Products & Services',
+        contact: 'Contact Us',
+        getStarted: 'GET STARTED',
+        contactUs: 'CONTACT US',
+        ourServices: 'OUR SERVICES',
+        aboutUs: 'ABOUT US',
+        viewAll: 'View All',
+        newsletter: 'Stay in touch with MaxOto',
+        subscribe: 'SUBSCRIBE',
+        quickLinks: 'QUICK LINKS',
+        bestSeller: 'BEST SELLER',
+        contacts: 'CONTACT',
+        endo: 'ENDO SERIES',
+        cic: 'CIC SERIES',
+        medDevice: 'Medical device CE 0051',
+        aboutFooter: 'About Us',
+        contactFooter: 'Contact Us',
+        productsFooter: 'Products & Services',
+        brochureTitle: 'Download MaxOto Brochure',
+        brochureCaption: 'Click the image or title to download the info PDF.',
+        rollupTitle: 'Download MaxOto Rollup',
+        rollupCaption: 'Click the image or title to download the info PDF.'
+    },
+    'en-usa': {
+        home: 'Home',
+        about: 'About Us',
+        products: 'Products & Services',
+        contact: 'Contact Us',
+        getStarted: 'GET STARTED',
+        contactUs: 'CONTACT US',
+        ourServices: 'OUR SERVICES',
+        aboutUs: 'ABOUT US',
+        viewAll: 'View All',
+        newsletter: 'Stay in touch with MaxOto',
+        subscribe: 'SUBSCRIBE',
+        quickLinks: 'QUICK LINKS',
+        bestSeller: 'BEST SELLER',
+        contacts: 'CONTACT',
+        endo: 'ENDO SERIES',
+        cic: 'CIC SERIES',
+        medDevice: 'Medical device CE 0051',
+        aboutFooter: 'About Us',
+        contactFooter: 'Contact Us',
+        productsFooter: 'Products & Services',
+        brochureTitle: 'Download MaxOto Brochure',
+        brochureCaption: 'Click the image or title to download the info PDF.',
+        rollupTitle: 'Download MaxOto Rollup',
+        rollupCaption: 'Click the image or title to download the info PDF.'
+    }
+};
+
+function setLanguage(lang) {
+    const t = translations[lang] || translations['it'];
+    // Nav
+    document.querySelectorAll('.classynav a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'home' || a.textContent.trim() === 'Home') a.textContent = t.home;
+        if (a.textContent.trim().toLowerCase() === 'about us' || a.textContent.trim() === 'Chi Siamo') a.textContent = t.about;
+        if (a.textContent.trim().toLowerCase() === 'products & services' || a.textContent.trim() === 'Prodotti e Servizi') a.textContent = t.products;
+        if (a.textContent.trim().toLowerCase() === 'contact us' || a.textContent.trim() === 'Contattaci') a.textContent = t.contact;
+    });
+    // Footer nav and quick links
+    document.querySelectorAll('.footer-nav a, .widget-nav a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'home' ) a.textContent = t.home;
+        if (a.textContent.trim().toLowerCase() === 'about us' || a.textContent.trim() === 'Chi Siamo') a.textContent = t.aboutFooter;
+        if (a.textContent.trim().toLowerCase() === 'contact us' || a.textContent.trim() === 'Contattaci') a.textContent = t.contactFooter;
+        if (a.textContent.trim().toLowerCase() === 'products & services' || a.textContent.trim() === 'Prodotti e Servizi') a.textContent = t.productsFooter;
+    });
+    // Footer widget titles
+    document.querySelectorAll('.widget-title h5').forEach(h5 => {
+        if (h5.textContent.trim().toLowerCase() === 'quick link' || h5.textContent.trim() === 'LINK RAPIDI') h5.textContent = t.quickLinks;
+        if (h5.textContent.trim().toLowerCase() === 'best seller' || h5.textContent.trim() === 'PRODOTTI PIÙ VENDUTI') h5.textContent = t.bestSeller;
+        if (h5.textContent.trim().toLowerCase() === 'contact' || h5.textContent.trim() === 'CONTATTI') h5.textContent = t.contacts;
+    });
+    // Best seller product names
+    document.querySelectorAll('.product-info a').forEach(a => {
+        if (a.textContent.trim().toLowerCase() === 'endo series' || a.textContent.trim() === 'SERIE ENDO') a.textContent = t.endo;
+        if (a.textContent.trim().toLowerCase() === 'cic series' || a.textContent.trim() === 'SERIE CIC') a.textContent = t.cic;
+    });
+    document.querySelectorAll('.product-info p').forEach(p => {
+        if (p.textContent.trim().toLowerCase() === 'medical device ce 0051' || p.textContent.trim() === 'Dispositivo medico CE 0051') p.textContent = t.medDevice;
+    });
+    // Example: update buttons
+    document.querySelectorAll('.btn.alazea-btn').forEach(btn => {
+        if (btn.textContent.trim().toLowerCase() === 'get started') btn.textContent = t.getStarted;
+        if (btn.textContent.trim().toLowerCase() === 'contact us') btn.textContent = t.contactUs;
+        if (btn.textContent.trim().toLowerCase() === 'view all') btn.textContent = t.viewAll;
+        if (btn.textContent.trim().toLowerCase() === 'subscribe') btn.textContent = t.subscribe;
+    });
+    // Example: update section headings
+    document.querySelectorAll('h2').forEach(h2 => {
+        if (h2.textContent.trim().toLowerCase() === 'our services') h2.textContent = t.ourServices;
+        if (h2.textContent.trim().toLowerCase() === 'about us') h2.textContent = t.aboutUs;
+    });
+    // Brochure/Rollup titles and captions
+    document.querySelectorAll('.post-title h5').forEach(h5 => {
+        if (h5.textContent.trim().toLowerCase().includes('brochure')) h5.textContent = t.brochureTitle;
+        if (h5.textContent.trim().toLowerCase().includes('rollup')) h5.textContent = t.rollupTitle;
+    });
+    document.querySelectorAll('.post-excerpt').forEach(p => {
+        if (p.textContent.trim().toLowerCase().includes('pdf informativo')) {
+            if (p.previousElementSibling && p.previousElementSibling.querySelector('h5') && p.previousElementSibling.querySelector('h5').textContent.toLowerCase().includes('brochure')) {
+                p.textContent = t.brochureCaption;
+            } else if (p.previousElementSibling && p.previousElementSibling.querySelector('h5') && p.previousElementSibling.querySelector('h5').textContent.toLowerCase().includes('rollup')) {
+                p.textContent = t.rollupCaption;
+            } else {
+                p.textContent = t.brochureCaption;
+            }
+        }
+    });
+    // ...add more selectors as needed for full translation
+}
+
+document.querySelectorAll('.language-option').forEach(el => {
+    el.addEventListener('click', function(e) {
+        e.preventDefault();
+        setLanguage(this.getAttribute('data-lang'));
+    });
+});
+// Set default language to Italian
+setLanguage('it');
+</script>
+</body>
+<script>
+$(document).ready(function() {
+    $('.new-arrivals-products-area').magnificPopup({
+        delegate: '.product-popup-link',
+        type: 'image',
+        gallery: { enabled: true },
+        image: {
+            titleSrc: function(item) {
+                // Try to get the product name from the next <p> element
+                var title = $(item.el).find('p').text();
+                if (!title) title = $(item.el).closest('.single-product-area').find('.product-info p').text();
+                return title || '';
+            }
+        }
+    });
+});
+</script>
+</body>
+
+</html>
